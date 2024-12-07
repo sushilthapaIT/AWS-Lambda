@@ -1,0 +1,35 @@
+<!-- 
+Sushil Thapa
+C0919991 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Sorting Application</title>
+  <!-- External CSS link for styling -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Main heading for the page -->
+    <h1>AWS Lambda File Sorting System</h1>
+    <!-- Form to handle file upload -->
+    <form id="uploadForm">
+      <label for="fileInput">Upload your (text) .txt file:</label>
+      <input type="file" id="fileInput" accept=".txt" required>
+      <button type="submit">Upload.</button>
+    </form>
+    <!-- Display the sorted file content after processing -->
+    <div id="output">
+      <h2>Sorted File:</h2>
+      <pre id="sortedContent"></pre>
+    </div>
+  </div>
+  <!-- External JavaScript for functionality -->
+  <script src="app.js"></script>
+</body>
+</html>
